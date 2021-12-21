@@ -1,0 +1,274 @@
+body {
+    background-color: deepskyblue;
+}
+
+.textArea {
+    position: absolute;
+    width: 70%;
+    background-color: white;
+    left: 10%;
+    top: 30%
+}
+
+.websiteText {
+    position: absolute;
+    /*background-color: deepskyblue;*/
+    font-size: 130%;
+    font-family: Arial;
+    color: white;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    width: 45%;
+    left: 50%;
+    top: 40%;
+}
+
+.textBox1 button:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.textBox2 {
+    position: absolute;
+    background-color: deepskyblue;
+    font-size: 130%;
+    font-family: Arial;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    width: 65%;
+    left: 30%;
+    top: 56%;
+}
+
+.textBox3 {
+    position: absolute;
+    /*background-color: deepskyblue;*/
+    font-size: 130%;
+    font-family: Arial;
+    color: white;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    width: 65%;
+    left: 30%;
+    top: 30%;
+}
+
+.textBox3 button:hover {
+    background-color: cyan;
+    color: white;
+}
+
+.textBox4 {
+    position: absolute;
+    /*background-color: deepskyblue;*/
+    font-size: 130%;
+    font-family: Arial;
+    color: white;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    width: 65%;
+    left: 30%;
+    top: 58%;
+}
+
+.nextButtonWebsite button {
+    position: absolute;
+    background-color: white;
+    height: 38%;
+    left: 97%;
+    top: 40%;
+    border-radius: 60%;
+    border: none;
+    outline: none;
+    display:none;
+}
+
+.nextButtonWebsite button:hover {
+    background-color: lightsteelblue;
+}
+.prevButtonSearch button {
+    position: absolute;
+    background-color: white;
+    height: 38%;
+    left: 2%;
+    top: 40%;
+    border-radius: 60%;
+    border: none;
+    outline: none;
+}
+
+.prevButtonSearch button:hover {
+    background-color: lightsteelblue;
+}
+
+.websiteImg {
+    position: absolute;
+    width:40%;
+    height:40%;
+    left: 5%;
+    top: 40%;
+    border-radius:15%
+}
+
+.websiteImg img {
+    width: 80%;
+    position: absolute;
+    left:10%;
+    top: 10%;
+    height: auto;
+}
+
+.homeButton {
+    position: absolute;
+    width: 20%;
+    left: 0%;
+    top: 2%;
+}
+.homeButton img {
+    width: 100%;
+    height: auto;
+}
+.homeButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 150%;*/
+    font-size: 2vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.homeButton .btn:hover {
+    color: skyblue;
+}
+
+.aboutMeButton {
+    position: absolute;
+    width: 15%;
+    left: 20%;
+    top: 1%;
+}
+.aboutMeButton img {
+    width: 100%;
+    height: auto;
+}
+.aboutMeButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.aboutMeButton .btn:hover {
+    color: skyblue;
+}
+
+.portfolioButton {
+    position: absolute;
+    width: 15%;
+    left: 40%;
+    top: 1%;
+}
+.portfolioButton img {
+    width: 100%;
+    height: auto;
+}
+.portfolioButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.portfolioButton .btn:hover {
+    color: skyblue;
+}
+
+.qualificationsButton {
+    position: absolute;
+    width: 15%;
+    left: 60%;
+    top: 1%;
+}
+.qualificationsButton img {
+    width: 100%;
+    height: auto;
+}
+.qualificationsButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.qualificationsButton .btn:hover {
+    color: skyblue;
+}
+
+.serviceButton {
+    position: absolute;
+    width: 15%;
+    left: 80%;
+    top: 1%;
+}
+.serviceButton img {
+    width: 100%;
+    height: auto;
+}
+.serviceButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.serviceButton .btn:hover {
+    color: skyblue;
+}

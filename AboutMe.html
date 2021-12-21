@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="aboutMeDesign.css" />
+    <script src="redirect.js"></script>
+</head>
+
+
+<body>
+    <div class="FullName">
+        <h1 style="color:white; text-align: center;">
+            <a href="https://www.github.com/KZMachine" target="_self"><img class="github" ismap src="./images/GitHubLogo.png" border="0" /></a>
+            <span style="font-family:'Comic Sans MS'">Karim Zaher</span>
+            <a href="https://www.linkedin.com/in/karim-zaher/" target="_self"><img class="linkedin" ismap src="./images/LinkedInLogo.png" border="0" /></a>
+        </h1>
+    </div>
+
+    <div class="selfPortrait">
+        <img src="./images/selfPortrait.jpg" alt="selfPortrait" />
+    </div>
+
+    <div class="textBox1" id="txt1">
+        <span>
+            <span style="color:yellow; font-size:150%; font-family:Georgia;">printf("Hello World!");<br /></span>
+            Just in case you missed it on the home page or you have not taken a look underneath my lovely self-portrait
+            over to the left, my name is Karim Zaher and I am a Computer Engineering honors student at <button onclick="openUniversitySite()" style="border-radius:30%; border: none; outline:none;">Texas A&M</button> University.
+            In my freetime, I like to hang out with my friends or learn about new topics that I find interesting. Most recently,
+            for example, I have begun learning about Robot Operating System, a software framework used in robotics.
+        </span>
+    </div>
+
+    <div class="textBox2" id="txt2">
+        <span>
+            Growing up, I always had an interest in robots and computers. On my 7th birthday, I got a little robot
+            friend named RoboSapien, or Rob for short. Although Rob was not the sole reason I felt compelled to
+            go into the field of <button onclick="openCompEngr()" style="border-radius:30%; border: none; outline:none;">
+            Computer Engineering</button>, I believe that he was the first stepping stone in my journey
+            to becoming who I am today. Growing up in a household with a passionate Computer Scientist -- my dad -- also
+            contributed towards the discovery of my 2 passions: computers and problem-solving. Although my interests in
+            Artificial Intelligence and Robotics shine bright, I find all fields of Computer Science and Engineering interesting
+            and would be open to working in any field that catches my attention. In fact, throughout my life, I have explored
+            hundreds of career options ranging from everyone’s childhood dream of becoming an astronaut to the more complex
+            concept of quantum computing. All of these dreams, however, involved computers in one way or another.That is why I
+            decided to venture into the realm of computers and their inner-workings.
+        </span>
+    </div>
+
+    <div class="textBox3" id="txt3" style="display: none;">
+        <span>
+            When I've got plenty of freetime, I like taking in what nature has to offer. And when I am in awe, I like  to pull my
+            phone out and snap a picture or two of the scenery in front of me. As such, I have inevitably become somewhat of a
+            <button onclick="openPictureDrive()" style="border-radius:30%; border:none; outline:none;">photographer</button>. Whether it be a lushious grotto in the United Kingdom, a lovely sunset, the blue sky, or my personal
+            favorite 'squirrel grumpily eats bread that was meant for the ducks', I will never miss an opportunity to capture something
+            that is worthwhile. In any case, there is truly not a dull moment when it comes to going out and exploring the world.
+            And at the end of the day, having a great understanding of this world is what it means to be a problem-solver.
+        </span>
+    </div>
+
+    <div class="textBox4" id="txt4" style="display:none;">
+        <span>
+            Random Fun Facts:
+            <ul>
+                <li>My favorite color is blue</li>
+                <li>My favorite animal is the <button onclick="openTiger()" style="border-radius:30%; border: none; outline:none;">tiger</button>.</li>
+                <li>I love music. I can play the guitar, the ukulele, the piano, and can beatbox. 
+                    I've also been in a barbershop quartet and a show choir.</li>
+            </ul>
+        </span>
+    </div>
+
+    <div class="prevButton" id="leftButton" style="display: none;">
+        <button onclick="document.getElementById('txt3').style.display='none'
+                document.getElementById('txt4').style.display='none'
+                document.getElementById('txt1').style.display='block'
+                document.getElementById('txt2').style.display='block'
+                document.getElementById('rightButton').style.display='block'
+                document.getElementById('leftButton').style.display='none'">
+            <<br /><<br /><
+        </button>
+    </div>
+
+    <div class="nextButton" id="rightButton">
+        <button onclick="document.getElementById('txt1').style.display='none'
+                document.getElementById('txt2').style.display='none'
+                document.getElementById('rightButton').style.display='none'
+                document.getElementById('txt3').style.display='block'
+                document.getElementById('txt4').style.display='block'
+                document.getElementById('leftButton').style.display='block'">
+            ><br />><br />>
+        </button>
+    </div>
+
+    <div class="homeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectHome()"><span style="font-family:'Comic Sans MS'">Home</span></button>
+    </div>
+
+    <div class="aboutMeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectAboutMe()"><span style="font-family:'Comic Sans MS'">About Me</span></button>
+    </div>
+
+    <div class="portfolioButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectPortfolio()"><span style="font-family:'Comic Sans MS'">Portfolio</span></button>
+    </div>
+
+    <div class="qualificationsButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectQualifications()"><span style="font-family:'Comic Sans MS'">Qualifications</span></button>
+    </div>
+
+    <div class="serviceButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectService()"><span style="font-family:'Comic Sans MS'">Service</span></button>
+    </div>
+</body>
+</html>

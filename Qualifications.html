@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Qualifications</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="qualificationsDesign.css" />
+    <script src="redirect.js"></script>
+</head>
+
+<body>
+
+    <div class="ResumePDF" id="resumeFile" style="display: none;">
+        <iframe src="Files/KarimZaher_Resume.pdf"></iframe>
+    </div>
+
+    <div class="TechnicalInterest" id="technicalInt" style="display: none";>
+        <span>
+            <span style="color:yellow; font-size:150%; font-family:Georgia;">Technical Interests<br /></span>
+            My two biggest interests within the field of Computer Science would be Artificial Intelligence and Robotics. Growing up, I was
+            always interested in both of these fields, however, my fascination did not pique until 2018, when <button onclick="openHarvey()" 
+            style="border-radius:30%; border: none; outline:none;">
+            Hurricane Harvey</button> swept by my hometown, Katy, Texas, and destroyed hundreds of homes, including my own. In the weeks following the disaster, I watched as drones
+            were deployed to search and rescue people that were stranded in their homes. Seeing just how useful the drones were made me realize
+            that I wanted to go into the field of robotics. In addition, I had read about the multitude of benefits of applying AI to robotics in
+            multiple articles, so I wanted to help the combination of these fields to progress much faster than they already do.
+</span>
+    </div>
+
+    <div class="skillSet" id="skills" style="display: none">
+        <span>
+            <span style="color:yellow; font-size:150%; font-family:Georgia;">Skills<br /></span>
+            I am proficient in both C++ and python, and it does not take me too long to get accustomed to a new programming language
+            or API.<br />I am currently working on getting the basics of Robot Operating System, or <button onclick="openROS()" style="border-radius:30%; border: none; outline:none;">
+    ROS</button>, down. I plan on using ROS in
+    conjecture with <button onclick="openOpenCV()" style="border-radius:30%; border: none; outline:none;">
+    OpenCV
+</button>, an image processing API, and a Raspberry Pi microcomputer to create a robot that finds water bottles and
+    crushes them. This process would save up space when I dispose of multiple water bottles at once.<br />I am able to simulate circuits
+    and analyze them using LTSpice.
+</span>
+    </div>
+
+    <div class="resumeButton" id="resumeBtn">
+        <button onclick="document.getElementById('resumeBtn').style.display='none'
+                document.getElementById('skillInterestBtn').style.display='none'
+                document.getElementById('resumeFile').style.display='block'
+                document.getElementById('return').style.display='block'
+                ">
+            Resume
+        </button>
+        <img src="./images/Cloud.png" alt="Cloud" />
+    </div>
+
+    <div class="skillInterestButton" id="skillInterestBtn">
+        <button onclick="document.getElementById('resumeBtn').style.display='none'
+                document.getElementById('skillInterestBtn').style.display='none'
+                document.getElementById('skills').style.display='block'
+                document.getElementById('technicalInt').style.display='block'
+                document.getElementById('return').style.display='block'
+                ">
+            Skills and Interests
+        </button>
+        <img src="./images/Cloud.png" alt="Cloud" />
+    </div>
+
+    <div class="backButton" id="return" style="display: none">
+        <button onclick="document.getElementById('skills').style.display='none'
+                document.getElementById('technicalInt').style.display='none'
+                document.getElementById('resumeFile').style.display='none'
+                document.getElementById('return').style.display='none'
+                document.getElementById('resumeBtn').style.display='block'
+                document.getElementById('skillInterestBtn').style.display='block'
+                ">
+            Back
+        </button>
+        <img src="./images/Cloud.png" alt="Cloud" />
+    </div>
+
+    <div class="nextButtonWebsite" id="rightButtonWebsite">
+        <button onclick="document.getElementById('websiteTxt').style.display='none'
+                document.getElementById('websitePicture').style.display='none'
+                document.getElementById('rightButtonWebsite').style.display='none'
+                document.getElementById('leftButtonSearch').style.display='block'">
+            ><br />><br />>
+        </button>
+    </div>
+
+    <div class="homeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectHome()"><span style="font-family:'Comic Sans MS'">Home</span></button>
+    </div>
+
+    <div class="aboutMeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectAboutMe()"><span style="font-family:'Comic Sans MS'">About Me</span></button>
+    </div>
+
+    <div class="portfolioButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectPortfolio()"><span style="font-family:'Comic Sans MS'">Portfolio</span></button>
+    </div>
+
+    <div class="qualificationsButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectQualifications()"><span style="font-family:'Comic Sans MS'">Qualifications</span></button>
+    </div>
+
+    <div class="serviceButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectService()"><span style="font-family:'Comic Sans MS'">Service</span></button>
+    </div>
+
+</body>
+</html>

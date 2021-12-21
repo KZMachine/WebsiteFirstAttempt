@@ -1,0 +1,319 @@
+body {
+    background-color: deepskyblue;
+}
+
+/*.FullName {
+    position: absolute;
+    width: 20%;
+    left: 5%;
+    top: 80%;
+}*/
+
+.FullName {
+    position: absolute;
+    width: 20%;
+    left: 5%;
+    top: 80%;
+    font-size: 1vw;
+}
+
+.FullName .github{
+    position: absolute;
+    left: 5%;
+    width: 10%;
+    height: auto;
+}
+
+.FullName .linkedin{
+    position: absolute;
+    left: 85%;
+    width: 10%;
+    height: auto;
+}
+
+.cloudQuote {
+    position: absolute;
+    font-size: 70%;
+    font-style:italic;
+    width:60%;
+    left:30%;
+    top: 55%;
+}
+
+.textArea {
+    position: absolute;
+    width: 70%;
+    background-color: white;
+    left: 10%;
+    top: 30%
+}
+
+.textBox1 {
+    position: absolute;
+    /*background-color: deepskyblue;*/
+    /*font-size: 130%;*/
+    font-size: 1.5vw;
+    font-family: Arial;
+    color: white;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    width: 65%;
+    left: 30%;
+    top: 30%;
+}
+
+.textBox1 button:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.textBox2 {
+    position: absolute;
+    background-color: deepskyblue;
+    /*font-size: 130%;*/
+    font-size: 1.5vw;
+    font-family: Arial;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    width: 65%;
+    left: 30%;
+    top: 56%;
+}
+
+.textBox2 button:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.textBox3 {
+    position: absolute;
+    /*background-color: deepskyblue;*/
+    font-size: 130%;
+    font-family: Arial;
+    color: white;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    width: 65%;
+    left: 30%;
+    top: 30%;
+}
+
+.textBox3 button:hover {
+    background-color: cyan;
+    color: white;
+}
+
+.textBox4 {
+    position: absolute;
+    /*background-color: deepskyblue;*/
+    font-size: 130%;
+    font-family: Arial;
+    color: white;
+    border: dashed;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    width: 65%;
+    left: 30%;
+    top: 58%;
+}
+
+.textBox4 button:hover{
+    background-color: orange;
+}
+
+.nextButton button{
+    position: absolute;
+    background-color:white;
+    height: 62%;
+    left: 97%;
+    top: 30%;
+    border-radius:60%;
+    border:none;
+    outline:none;
+}
+
+.nextButton button:hover {
+    background-color:lightsteelblue;
+}
+
+.prevButton button {
+    position: absolute;
+    background-color: white;
+    height: 62%;
+    left: 27.5%;
+    top: 30%;
+    border-radius: 60%;
+    border: none;
+    outline: none;
+}
+
+.prevButton button:hover {
+    background-color: lightsteelblue;
+}
+
+.selfPortrait {
+    position: absolute;
+    width:20%;
+    left: 5%;
+    top: 30%;  
+}
+
+.selfPortrait img {
+    width: 100%;
+    height: auto;
+    border-radius: 15%
+}
+
+.homeButton {
+    position: absolute;
+    width: 20%;
+    left: 0%;
+    top: 2%;
+}
+.homeButton img {
+    width: 100%;
+    height: auto;
+}
+.homeButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 150%;*/
+    font-size: 2vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.homeButton .btn:hover {
+    color: skyblue;
+}
+
+.aboutMeButton {
+    position: absolute;
+    width: 15%;
+    left: 20%;
+    top: 1%;
+}
+.aboutMeButton img {
+    width: 100%;
+    height: auto;
+}
+.aboutMeButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.aboutMeButton .btn:hover {
+    color: skyblue;
+}
+
+.portfolioButton {
+    position: absolute;
+    width: 15%;
+    left: 40%;
+    top: 1%;
+}
+.portfolioButton img {
+    width: 100%;
+    height: auto;
+}
+.portfolioButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.portfolioButton .btn:hover {
+    color: skyblue;
+}
+
+.qualificationsButton {
+    position: absolute;
+    width: 15%;
+    left: 60%;
+    top: 1%;
+}
+.qualificationsButton img {
+    width: 100%;
+    height: auto;
+}
+.qualificationsButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.qualificationsButton .btn:hover {
+    color: skyblue;
+}
+
+.serviceButton {
+    position: absolute;
+    width: 15%;
+    left: 80%;
+    top: 1%;
+}
+.serviceButton img {
+    width: 100%;
+    height: auto;
+}
+.serviceButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: black;
+    /*font-size: 90%;*/
+    font-size: 1.25vw;
+    padding: 30px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline:none;
+}
+.serviceButton .btn:hover {
+    color: skyblue;
+}

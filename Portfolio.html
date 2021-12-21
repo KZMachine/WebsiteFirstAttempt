@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="portfolioDesign.css" />
+    <script src="redirect.js"></script>
+</head>
+
+<body>
+
+    <div class="websiteImg" id="websitePicture" style="background-color:white;">
+        <img src="./images/Website.png" alt="Website" />
+    </div>
+
+    <div class="websiteText" id="websiteTxt">
+        <span>
+            <span style="color:yellow; font-size:150%; font-family:Georgia;">This Website!<br /></span>
+            This website was an individual project for my CSCE 315 class. I built this website from scratch using a mix of
+            HTML5, CSS, and a little bit of JavaScript. Prior to this project, I had no experience with web development, however,
+            I was able to pick up on the syntax fairly quickly. For some reason, I felt the need to give it a cloud-based theme.
+            Maybe it was the fact that I had read an article on cloud computing before beginning this project, or maybe it was because
+            I simply love the sky and the color blue. Nevertheless, I wanted the website to feel fun and satisfying to navigate through.
+        </span>
+    </div>
+
+    <div class="nextButtonWebsite" id="rightButtonWebsite">
+        <button onclick="document.getElementById('websiteTxt').style.display='none'
+                document.getElementById('websitePicture').style.display='none'
+                document.getElementById('rightButtonWebsite').style.display='none'
+                document.getElementById('leftButtonSearch').style.display='block'">
+            ><br />><br />>
+        </button>
+    </div>
+
+    <div class="prevButtonSearch" id="leftButtonSearch" style="display: none;">
+        <button onclick="document.getElementById('txt3').style.display='none'
+                document.getElementById('txt4').style.display='none'
+                document.getElementById('rightButtonWebsite').style.display='block'
+                document.getElementById('txt2').style.display='block'
+                document.getElementById('rightButton').style.display='block'
+                document.getElementById('leftButton').style.display='none'">
+            <<br /><<br /><
+        </button>
+    </div>
+
+    <div class="homeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectHome()"><span style="font-family:'Comic Sans MS'">Home</span></button>
+    </div>
+
+    <div class="aboutMeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectAboutMe()"><span style="font-family:'Comic Sans MS'">About Me</span></button>
+    </div>
+
+    <div class="portfolioButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectPortfolio()"><span style="font-family:'Comic Sans MS'">Portfolio</span></button>
+    </div>
+
+    <div class="qualificationsButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectQualifications()"><span style="font-family:'Comic Sans MS'">Qualifications</span></button>
+    </div>
+
+    <div class="serviceButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectService()"><span style="font-family:'Comic Sans MS'">Service</span></button>
+    </div>
+
+</body>
+</html>

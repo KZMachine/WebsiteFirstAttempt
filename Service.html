@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Service</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="serviceDesign.css" />
+    <script src="redirect.js"></script>
+</head>
+
+
+<body>
+
+    <div class="freeRiceImg" id="freericeImg" style="background-color:white;">
+        <img src="./images/FreeRice.png" alt="Website" />
+    </div>
+
+    <div class="freeRiceTxt" id="freericeTxt">
+        <span>
+            <span style="color:yellow; font-size:150%; font-family:Georgia;">Freerice<br /></span>
+            I have spent hours on <button onclick="openFreeRice()" style="border-radius:30%; border:none; outline:none;">Freerice</button>, a web application that allows a user to send rice to families in need by completing 
+            multiple-choice quizzes. What started out as my participation in the engineering honors "Hour of Service" event, an event in 
+            which students spent an hour on the website to collect as much rice as possible, eventually became a part of a routine that I 
+            complete every now and then. Due to Covid-19, there have not been many opportunities for students to volunteer. This is the next best thing.
+            to volunteer
+        </span>
+    </div>
+
+    <div class="nextButtonWebsite" id="rightButtonWebsite">
+        <button onclick="document.getElementById('websiteTxt').style.display='none'
+                document.getElementById('websitePicture').style.display='none'
+                document.getElementById('rightButtonWebsite').style.display='none'
+                document.getElementById('leftButtonSearch').style.display='block'">
+            ><br />><br />>
+        </button>
+    </div>
+
+    <div class="prevButtonSearch" id="leftButtonSearch" style="display: none;">
+        <button onclick="document.getElementById('txt3').style.display='none'
+                document.getElementById('txt4').style.display='none'
+                document.getElementById('rightButtonWebsite').style.display='block'
+                document.getElementById('txt2').style.display='block'
+                document.getElementById('rightButton').style.display='block'
+                document.getElementById('leftButton').style.display='none'">
+            <<br /><<br /><
+        </button>
+    </div>
+
+    <div class="homeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectHome()"><span style="font-family:'Comic Sans MS'">Home</span></button>
+    </div>
+
+    <div class="aboutMeButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectAboutMe()"><span style="font-family:'Comic Sans MS'">About Me</span></button>
+    </div>
+
+    <div class="portfolioButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectPortfolio()"><span style="font-family:'Comic Sans MS'">Portfolio</span></button>
+    </div>
+
+    <div class="qualificationsButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectQualifications()"><span style="font-family:'Comic Sans MS'">Qualifications</span></button>
+    </div>
+
+    <div class="serviceButton">
+        <img src="./images/Cloud.png" alt="Cloud">
+        <button class="btn" onclick="redirectService()"><span style="font-family:'Comic Sans MS'">Service</span></button>
+    </div>
+</body>
+</html>
